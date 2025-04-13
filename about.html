@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcelona Taxi Service (BTS)</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="images/Barcelona.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-containerr">
+        <header class="header" id="home">
+            <div class="log">
+                <a href="#" id="logo"><img src="images/Barcelona.png" alt=""></a>
+                <h1>BTS</h1>
+            </div>
+            <div class="head">
+                <i id="menu-bars" class="fas fa-bars"></i> 
+                <div class="">
+                    <nav class="navbar">
+                        <a href="/index.html" data-key="home">Home</a>
+                        <a href="/about.html" data-key="about">About</a>
+                        <a href="/contact.html" data-key="contact">Contact</a>
+                        <a href="/booking.html" data-key="booking">Booking</a>
+                    </nav>     
+                </div>
+                <div class="language-dropdown">
+                    <button class="dropdown-btn" onclick="toggleDropdown()">
+                        
+                        <span class="selected-language">English</span>
+                        <span id="dropdown-arrow" class="arrow">▼</span>
+                    </button>
+                    <div id="dropdown-menu" class="dropdown-menu">
+                        <button class="dropdown-item" onclick="switchToEnglish()">English</button>
+                        <button class="dropdown-item" onclick="switchToSpanish()">Español</button>
+                    </div>
+                </div> 
+            </div>
+        </header>   
+        
+        <section class="hero">
+            <div class="hero-overlay">
+                <h2>Welcome to Barcelona Taxi Service</h2>
+                <p>Your trusted partner for exploring the vibrant city of Barcelona.</p>
+            </div>
+        </section>
+    
+        <!-- About Section -->
+        <section class="about">
+            <div class="about-container">
+                <div class="about-text">
+                    <h3>Reliable and Comfortable Taxi Services for Tourists in Barcelona</h3>
+                    <p>Exploring Barcelona is a delightful experience, and having a reliable taxi service ensures a smooth and comfortable journey through the city’s vibrant streets. Whether you’re arriving at El Prat Airport, visiting famous landmarks like Sagrada Família and Park Güell, or heading to the beautiful beaches of Barceloneta, taxis provide a convenient and efficient way to travel. With well-maintained vehicles, professional drivers, and competitive rates, Barcelona’s taxi services cater to the needs of tourists looking for stress-free transportation.</p>
+                    <p>For first-time visitors, taxis offer a hassle-free alternative to public transport, allowing you to enjoy the city at your own pace. Our drivers speak English and are knowledgeable about the best routes, tourist spots, and local recommendations. Whether you need a short ride within the city or a longer journey to destinations like Montserrat, Sitges, or the Costa Brava, taxis offer comfort and safety. Additionally, app-based taxi booking services make it easy to arrange pickups and payments, ensuring a seamless experience.                    </p>
+                    <p>With 24/7 availability, wheelchair-accessible vehicles, and options for larger groups, Barcelona taxi services are the perfect choice for tourists who want to explore the city effortlessly. Sit back, relax, and let Barcelona’s taxis take you on an unforgettable journey.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/barcelona-city.jpg" alt="Barcelona City">
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+
+    <footer>
+        <p>&copy; 2023 Barcelona Taxi Service. All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>
